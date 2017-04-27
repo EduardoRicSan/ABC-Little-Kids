@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/sol">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gl_menu"
+        android:columnCount="2"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/image_height"
+                android:src="@drawable/abecedario"
+                android:id="@+id/iv_abecedario"
+                android:layout_margin="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_abedecario"
+                android:background="@color/bodyColor"
+                android:text="@string/abc"
+                android:layout_alignBottom="@+id/iv_abecedario"
+                android:layout_alignLeft="@+id/iv_abecedario"
+                android:layout_alignStart="@+id/iv_abecedario"
+                android:layout_alignRight="@+id/iv_abecedario"
+                android:layout_alignEnd="@+id/iv_abecedario" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/numeros"
+        android:id="@+id/iv_numeros"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_numeros"
+                android:background="@color/bodyColor"
+                android:text="@string/the_numbers"
+                android:layout_alignBottom="@+id/iv_numeros"
+                android:layout_marginBottom="12dp"
+                android:layout_alignRight="@+id/iv_numeros"
+                android:layout_alignEnd="@+id/iv_numeros"
+                android:layout_alignLeft="@+id/iv_numeros"
+                android:layout_alignStart="@+id/iv_numeros" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/memorama"
+        android:id="@+id/iv_memorama"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_memorama"
+                android:background="@color/bodyColor"
+                android:text="@string/memorian_game"
+                android:layout_alignBottom="@+id/iv_memorama"
+                android:layout_alignLeft="@+id/iv_memorama"
+                android:layout_alignStart="@+id/iv_memorama"
+                android:layout_alignRight="@+id/iv_memorama"
+                android:layout_alignEnd="@+id/iv_memorama" />
+        </RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/tictactoe"
+        android:id="@+id/iv_tic"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_tictac"
+        android:background="@color/bodyColor"
+        android:text="@string/tic_tac_toe_game"
+        android:layout_alignBottom="@+id/iv_tic"
+        android:layout_alignLeft="@+id/iv_tic"
+        android:layout_alignStart="@+id/iv_tic"
+        android:layout_alignRight="@+id/iv_tic"
+        android:layout_alignEnd="@+id/iv_tic" />
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:src="@drawable/portada"
+            android:id="@+id/iv_trabajo"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_jobs"
+                android:background="@color/bodyColor"
+                android:text="Professions"
+                android:layout_marginBottom="14dp"
+                android:layout_alignBottom="@+id/iv_trabajo"
+                android:layout_alignLeft="@+id/iv_trabajo"
+                android:layout_alignStart="@+id/iv_trabajo"
+                android:layout_alignRight="@+id/iv_trabajo"
+                android:layout_alignEnd="@+id/iv_trabajo" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        <ImageView
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:src="@drawable/musica"
+            android:id="@+id/iv_musica"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_musica"
+                android:background="@color/bodyColor"
+                android:text="@string/abc_music"
+                android:layout_alignBottom="@+id/iv_musica"
+                android:layout_alignLeft="@+id/iv_musica"
+                android:layout_alignStart="@+id/iv_musica"
+                android:layout_alignRight="@+id/iv_musica"
+                android:layout_alignEnd="@+id/iv_musica" />
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <ImageView
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:src="@drawable/colores"
+            android:id="@+id/iv_colores"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_dibujar"
+                android:background="@color/bodyColor"
+                android:text="@string/colors"
+                android:layout_alignBottom="@+id/iv_colores"
+                android:layout_alignLeft="@+id/iv_colores"
+                android:layout_alignStart="@+id/iv_colores"
+                android:layout_alignRight="@+id/iv_colores"
+                android:layout_alignEnd="@+id/iv_colores" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <ImageView
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:src="@drawable/thebody"
+            android:id="@+id/iv_the_body"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_body"
+                android:background="@color/bodyColor"
+                android:text="@string/my_body"
+                android:layout_alignBottom="@+id/iv_the_body"
+                android:layout_alignLeft="@+id/iv_the_body"
+                android:layout_alignStart="@+id/iv_the_body"
+                android:layout_alignRight="@+id/iv_the_body"
+                android:layout_alignEnd="@+id/iv_the_body" />
+
+</RelativeLayout>
+
+</GridLayout>
+</ScrollView>

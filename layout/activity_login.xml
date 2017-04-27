@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/sol"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="mx.edu.utng.login.LoginActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="@dimen/login_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:id="@+id/tv_login"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_name"
+        android:textColorHint="@color/white"
+        android:hint="@string/enter_name"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_below="@id/tv_login"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_pass"
+        android:textColorHint="@color/white"
+        android:hint="@string/password"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:layout_below="@id/et_name"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_bt"
+        android:textSize="20dp"
+        android:layout_margin="@dimen/login_margin"
+        android:id="@+id/bt_login"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFF88"
+        android:onClick="login"
+        android:layout_below="@id/et_pass"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar"
+        android:textSize="20dp"
+        android:layout_margin="@dimen/login_margin"
+        android:id="@+id/bt_register"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFF88"
+        android:onClick="registrer"
+        android:layout_below="@id/bt_login"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/back_to_login"
+        android:textColor="@color/white"
+        android:id="@+id/tv_back_login"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/bt_register"
+        android:layout_centerHorizontal="true" />
+
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableTop="@drawable/globoe"
+        android:drawableStart="@drawable/globoe"
+        />
+
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/nino"
+        android:drawableStart="@drawable/nino"
+        android:id="@+id/tv_gif_nino"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

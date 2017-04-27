@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gl_images"
+    android:columnCount="2"
+    android:background="@drawable/risa"
+    >
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/artist"
+        android:id="@+id/iv_artist"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/cook"
+        android:id="@+id/iv_cook"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/dentist"
+        android:id="@+id/iv_dentist"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+
+        />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/electrician"
+        android:id="@+id/iv_electrician"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/fireman"
+        android:id="@+id/iv_fireman"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/mechanic"
+        android:id="@+id/iv_mechanic"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/musician"
+        android:id="@+id/iv_musician"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/nurse"
+        android:id="@+id/iv_nurse"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/policeman"
+        android:id="@+id/iv_policeman"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/scientist"
+        android:id="@+id/iv_scientist"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/teacher"
+        android:id="@+id/iv_teacher"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/veterinary"
+        android:id="@+id/iv_veterinary"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/painter"
+        android:id="@+id/iv_paint"
+        android:layout_margin="@dimen/margin_size"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/doctor"
+        android:id="@+id/iv_doctor"
+        android:layout_margin="@dimen/margin_size"
+        />
+
+
+</GridLayout>
+</ScrollView>

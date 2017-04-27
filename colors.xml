@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorFondo">#58ACFA</color>
+    <color name="back">#18FFFF</color>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="pink" type="color">#E91E63</item>
+    <item name="yellow" type="color">#FFEB3B</item>
+    <item name="brown" type="color">#795548</item>
+    <item name="black" type="color">#ff000000</item>
+    <item name="red" type="color">#ffcc0000</item>
+    <item name="blue" type="color">#ff0099cc</item>
+    <item name="purple" type="color">#ffaa66cc</item>
+    <item name="green" type="color">#ff99cc00</item>
+    <item name="fondo" type="color">#18FFFF</item>
+    <item name="main" type="color">#76FF03</item>
+    <item name="videoColor" type="color">#CCFFFF</item>
+    <item name="colorSet" type="color">#7581D4FA</item>
+    <color name="color1">#CCFFFF</color>
+    <color name="color2">#6699FF</color>
+    <color name="color3">#aa6666FF</color>
+    <color name="color4">#FFFF33</color>
+    <color name="bodyColor">#70AA</color>
+
+</resources>

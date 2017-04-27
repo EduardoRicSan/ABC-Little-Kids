@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.login">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login_user"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MemoramaActivity"
+            android:label="@string/memorian"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".MusicaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AbecedarioInglesActivity"
+            android:label="@string/abecedario"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NumeroActivity"
+            android:label="@string/numbers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JobProfessionGame"
+            android:label="@string/jobs"
+            android:screenOrientation="portrait" />
+        <activity android:name=".JobActivity" />
+        <activity
+            android:name=".VideoActivity"
+            android:largeHeap="true" />
+        <activity
+            android:name=".TicTacToeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ColorActivity" />
+        <activity
+            android:name=".PaintActivity"
+            android:largeHeap="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuPaintActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".CreditActivity" />
+        <activity
+            android:name=".BodyActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".QuestionActivity"></activity>
+    </application>
+
+</manifest>

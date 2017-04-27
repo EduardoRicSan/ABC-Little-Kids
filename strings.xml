@@ -1,0 +1,54 @@
+<resources>
+    <string name="registro">REGISTRO</string>
+    <string name="login">LOGIN</string>
+    <string name="memorian">Memorian</string>
+    <string name="register">Registro</string>
+    <string name="login_user">Login</string>
+    <string name="numbers">English 123</string>
+    <string name="abecedario">English ABC</string>
+    <string name="jobs">The Jobs</string>
+    <string-array name="gender">
+        <item>niño</item>
+        <item>niña</item>
+    </string-array>
+    <string name="app_name">ABC Little Kids</string>
+    <string name="action_settings">Settings</string>
+    <string name="erase_tag">#FFFFFF</string>
+    <string name="title_activity_tic_tac_toe">TicTacToe</string>
+    <string name="pintar">¡¡¡A Pintar se ha dicho!!!</string>
+    <string name="ruleta">Ruleta de colores</string>
+    <string name="video">VIDEO</string>
+    <string name="jobs_and_professions">JOBS AND PROFESSIONS</string>
+    <string name="enter_name">Enter name</string>
+    <string name="password">Password</string>
+    <string name="login_bt">Login</string>
+    <string name="registrar">Registrar</string>
+    <string name="back_to_login">Back to login</string>
+    <string name="fallas">Fallas:</string>
+    <string name="_0">0</string>
+    <string name="puntaje">Puntaje:</string>
+    <string name="salir">Salir</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="gender">Soy un(a)</string>
+    <string name="eduardo_rico">Eduardo Rico</string>
+    <string name="_21">21 años</string>
+    <string name="correo">correo:lalo19jers.azul@gmail.com</string>
+    <string name="head">Head</string>
+    <string name="arm">Arm</string>
+    <string name="leg">leg</string>
+    <string name="hand">hand</string>
+    <string name="foot">foot</string>
+    <string name="hair">hair</string>
+    <string name="shoulder">shoulder</string>
+    <string name="eyes">eyes</string>
+    <string name="abc_letras">ABC Letras</string>
+    <string name="abc">abc vocabulary</string>
+    <string name="memorian_game">Memorian Game</string>
+    <string name="tic_tac_toe_game">Tic Tac Toe Game</string>
+    <string name="abc_music">ABC Music</string>
+    <string name="my_body">My body</string>
+    <string name="colors">The colors</string>
+    <string name="the_numbers">The numbers</string>
+    <string name="manual_de_usaurio">MANUAL DE USUARIO DE LA APP</string>
+
+</resources>

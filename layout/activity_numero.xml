@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.utng.login.NumeroActivity"
+    android:orientation="horizontal"
+    android:background="@color/colorFondo">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero0"
+            android:src="@drawable/numero0"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.19"
+            >
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero4"
+            android:src="@drawable/numero4"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.09">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero8"
+            android:src="@drawable/numero8"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.15">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero30"
+            android:src="@drawable/numero30"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.16">
+        </ImageButton>
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero70"
+            android:src="@drawable/numero70"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.15">
+
+        </ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero1"
+            android:src="@drawable/numero1"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.16">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero5"
+            android:src="@drawable/numero5"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.12">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero9"
+            android:src="@drawable/numero9"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.15">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero40"
+            android:src="@drawable/numero40"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.15">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero80"
+            android:src="@drawable/numero80"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.16">
+
+        </ImageButton>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero2"
+            android:src="@drawable/numero2"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.16">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero6"
+            android:src="@drawable/numero6"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.13">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero10"
+            android:src="@drawable/numero10"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.09">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero50"
+            android:src="@drawable/numero50"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.26">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero90"
+            android:src="@drawable/numero90"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.07">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero3"
+            android:src="@drawable/numero3"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.15">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero7"
+            android:src="@drawable/numero7"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.13">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero20"
+            android:src="@drawable/numero20"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.12">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="@dimen/bt_w"
+            android:layout_height="@dimen/bt_h"
+            android:id="@+id/ib_numero60"
+            android:src="@drawable/numero60"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.26">
+
+        </ImageButton>
+
+
+        <ImageButton
+            android:layout_width="73dp"
+            android:layout_height="71dp"
+            android:id="@+id/ib_numero100"
+            android:src="@drawable/numero100"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerInside"
+            android:layout_weight="0.08">
+
+        </ImageButton>
+
+    </LinearLayout>
+</LinearLayout>
+

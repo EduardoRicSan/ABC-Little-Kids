@@ -1,0 +1,49 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="sett_size">70sp</dimen>
+    <dimen name="dimen_width">80dp</dimen>
+    <dimen name="dimen_height">70dp</dimen>
+    <dimen name="dimen_margin">16dp</dimen>
+    <dimen name="bt_h">70dp</dimen>
+    <dimen name="bt_w">80dp</dimen>
+    <dimen name="image_margin">10dp</dimen>
+    <dimen name="image_padding">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_left_bee">25dp</dimen>
+    <dimen name="top_second_bee">55dp</dimen>
+    <dimen name="top_three_bee">50dp</dimen>
+    <dimen name="second_left_bee">30dp</dimen>
+    <dimen name="top_bee">25dp</dimen>
+    <dimen name="height_ib">30dp</dimen>
+    <dimen name="width_abc">81dp</dimen>
+    <dimen name="height_abc">477dp</dimen>
+    <dimen name="img_size">79dp</dimen>
+    <dimen name="access_size">49dp</dimen>
+    <dimen name="set_size">90sp</dimen>
+    <dimen name="image_width">150dp</dimen>
+    <dimen name="image_height">180dp</dimen>
+    <dimen name="margin_size">20dp</dimen>
+    <dimen name="login_size">40sp</dimen>
+    <dimen name="login_margin">20dp</dimen>
+    <dimen name="register_size">40sp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="margin_image">16dp</dimen>
+    <dimen name="name_size">30sp</dimen>
+    <dimen name="image_size">100dp</dimen>
+    <dimen name="card_margin">10dp</dimen>
+    <dimen name="body_margin">120dp</dimen>
+    <dimen name="margin_head">66dp</dimen>
+    <dimen name="top_head">24dp</dimen>
+    <dimen name="arm_margin">55dp</dimen>
+    <dimen name="margin_leg">16dp</dimen>
+    <dimen name="mg_leg">82dp</dimen>
+    <dimen name="margin_bt">33dp</dimen>
+    <dimen name="top_bt">19dp</dimen>
+    <dimen name="mg_foot">24dp</dimen>
+    <dimen name="margin_hair">13dp</dimen>
+    <dimen name="top_eyes">19dp</dimen>
+
+
+</resources>

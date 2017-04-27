@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.utng.login.MenuPaintActivity"
+    android:background="@drawable/splash">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pintar"
+        android:id="@+id/bt_paint"
+        android:background="@color/videoColor"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ruleta"
+        android:layout_below="@id/bt_paint"
+        android:id="@+id/bt_ruleta"
+        android:background="@color/videoColor"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+</RelativeLayout>

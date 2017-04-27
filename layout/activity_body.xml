@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.utng.login.BodyActivity"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_body"
+        android:background="@drawable/thebody"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/head"
+        android:background="@color/bodyColor"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/iv_body"
+        android:layout_alignStart="@+id/iv_body"
+        android:layout_marginLeft="@dimen/margin_head"
+        android:layout_marginStart="@dimen/margin_head"
+        android:layout_marginTop="@dimen/top_head"
+        android:id="@+id/bt_head" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_arm"
+        android:background="@color/bodyColor"
+        android:text="@string/arm"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/arm_margin"
+        android:layout_marginStart="@dimen/arm_margin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_leg"
+        android:background="@color/bodyColor"
+        android:text="@string/leg"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/iv_body"
+        android:layout_alignStart="@+id/iv_body"
+        android:layout_marginLeft="@dimen/margin_leg"
+        android:layout_marginStart="@dimen/margin_leg"
+        android:layout_marginBottom="@dimen/mg_leg" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_hand"
+        android:background="@color/bodyColor"
+        android:text="@string/hand"
+        android:layout_below="@+id/bt_arm"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/margin_bt"
+        android:layout_marginEnd="@dimen/margin_bt"
+        android:layout_marginTop="@dimen/top_bt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_foot"
+        android:background="@color/bodyColor"
+        android:text="@string/foot"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/iv_body"
+        android:layout_alignEnd="@+id/iv_body"
+        android:layout_marginBottom="@dimen/mg_foot" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_hair"
+        android:background="@color/bodyColor"
+        android:text="@string/hair"
+        android:layout_below="@+id/bt_head"
+        android:layout_alignLeft="@+id/bt_foot"
+        android:layout_alignStart="@+id/bt_foot"
+        android:layout_marginLeft="@dimen/margin_hair"
+        android:layout_marginStart="@dimen/margin_hair" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shoulder"
+        android:id="@+id/bt_shoulder"
+        android:background="@color/bodyColor"
+        android:layout_above="@+id/bt_arm"
+        android:layout_alignRight="@+id/iv_body"
+        android:layout_alignEnd="@+id/iv_body"
+        android:layout_marginBottom="@dimen/margin_hair" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bodyColor"
+        android:text="@string/eyes"
+        android:id="@+id/bt_eyes"
+        android:layout_below="@+id/bt_head"
+        android:layout_alignLeft="@+id/bt_leg"
+        android:layout_alignStart="@+id/bt_leg"
+        android:layout_marginTop="@dimen/top_eyes"
+        />
+
+
+
+
+</RelativeLayout>
